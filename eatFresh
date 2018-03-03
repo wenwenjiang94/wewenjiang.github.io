@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>易绿鲜Eat-Fresh - 太空级纯净蔬果直送到家 | The purest produce,freshly delivered to your home</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet"> 
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/hoverSlide.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+  <link rel="shortcut icon" href="images/favicon.ico">
+</head><!--/head-->
+
+<body>
+
+  <!--.preloader-->
+  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+  <!--/.preloader-->
+  
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/1.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Eat-Fresh</h1>
+            
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#team">Start now</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/2.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Utilizing NASA Proven Techniques</h1>
+          
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#team">Start now</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/3.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Healthier Clean Room Grown Pure Produce</h1>
+
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#team">Start now</a>
+          </div>
+        </div>
+      </div>
+      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+      <a id="tohash" href="#team"><i class="fa fa-angle-down"></i></a>
+
+    </div><!--/#home-slider-->
+    <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <h1><img class="img-responsive" src="images/logo.png" width="148px" height="40px" alt="logo"></h1>
+          </a>                    
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">                 
+            <li class="scroll active"><a href="#home">Home</a></li>
+            <li class="scroll"><a href="#team">Freshness</a></li> 
+            <li class="scroll"><a href="#portfolio">Cleanroom</a></li>                     
+            <li class="scroll"><a href="#services">Aeroponics</a></li>
+            <li class="scroll"><a href="#twitter">Follow Us</a></li>
+            <li class="scroll"><a href="#blog">Activities</a></li>
+            <li class="scroll"><a href="#contact">Contact</a></li>       
+          </ul>
+        </div>
+        <div style="clear:both"></div>
+      </div>
+    </div><!--/#main-nav-->
+  </header><!--/#home-->
+  
+
+<section id="team">
+    <div class="container" style="font-color:red;font-weight:700;">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2><img src="images/team/title.png" width="290" height="89" alt=""/></h2>
+          <p>  </p>
+        </div>
+      </div>
+      <div class="team-members">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/veggie.png" alt="">
+              </div>
+              <div class="member-info">
+                <h3 ><img src="images/team/veggie_p.png" width="114" height="52" alt=""/></h3> 
+                <p style="font-color:red;font-weight:700;"> Green leafy vegetables are delivered with the roots intact, fresh longevity. </p>
+              </div>
+            
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/sprouts.png" alt="">
+              </div>
+              <div class="member-info">
+                <h3><img src="images/team/sprouts_p.png" width="124" height="52" alt=""/></h3>
+              
+                <p>Wash-free and pure from leaf to root, it is the real meaning of whole food.</p>
+              </div>
+             
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/fruits.png" alt="">
+              </div>
+              <div class="member-info">
+                <h3><img src="images/team/fruits_p.png" width="101" height="52" alt=""/></h3>
+                
+                <p>We provide kinds of pure cherry tomatoes, cucumbers and other fruits. </p>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/herbs.png" alt="">
+              </div>
+              <div class="member-info">
+                <h3><img src="images/team/herbs_p.png" width="99" height="49" alt=""/></h3> 
+                <p>Herbs have a variety of uses including culinary, medicinal, and in some cases.</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>            
+    </div>
+  </section><!--/#team-->
+
+
+<section id="about-us" class="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms" style="font-family:FZLanTingHeiS-EL-GB, Microsoft YaHei;">
+            <h2>易绿鲜蔬果营养价值远超普通蔬果</h2>
+            <h5>Eat-Fresh far exceeds national and even the highest international safety. </h5>
+            <p>“易绿鲜”的品质源自AEssense Corp的新一代都市农业技术——从种植方式上排除了任何来自水土或者空气的污染，蔬果绝对不会接触害虫、病菌或动物粪便残留，从而无需使用任何化学或生物农药和杀菌技术，全面保障了蔬果的安全、营养、纯净、优质。在美国和日本，此类技术已经成为避免水土污染甚至核辐射的安全食品保证。<br/><br/>经全球检测领导者机构SGS,PONY检测证明，SGS能检测的所有400冬种农药残留为0，各类重金属（汞，砷等）含量为0，亚硝酸盐含量为0，易绿鲜蔬果富含的维生素，番茄红素，叶酸，可溶性总糖等营养物质远高于普通蔬果，尤其是甜椒所含的叶酸成分经PONY检测高达486%！</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <p class="lead">樱桃番茄 维生素C</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="75">168%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+              <p class="lead">甜椒 叶酸</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="99">486%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <p class="lead">黄瓜 维生素C</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="70">133%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <p class="lead">生菜叶片 可溶性总糖</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="85">200%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	  
+	   
+	   <div class="team-members about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms" style="font-family:FZLanTingHeiS-EL-GB, Microsoft YaHei;">
+	    <h2 class="text-center">易绿鲜蔬果保鲜周期远超普通蔬果</h2>
+	    <br>
+        <div class="row">
+          <div class="col-sm-12">
+		 
+            <div class="team-member wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/vs.png" alt="">
+              </div>
+        
+            </div>
+          </div>
+		  </div>
+    </div>
+  </section><!--/#about-us-->
+
+
+  
+
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <h2><img src="images/portfolio/room_title.png" width="344" height="94" alt=""/></h2>
+          <p>Vegetables and fruits grown in our clean rooms are isolated from smog and any pollution. </p>
+        </div>
+      </div> 
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/1.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>无尘纯净室</h3>
+                    <p>by Eat-Fresh</p>
+                  </div>
+                  <div class="folio-overview">
+                   
+                    <span class="folio-expand"><a href="images/portfolio/product_detail_1.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/2.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>生菜</h3>
+                    <p>by Eat-Fresh</p>
+                  </div>
+                  <div class="folio-overview">
+                    
+                    <span class="folio-expand"><a href="images/portfolio/product_detail_2.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/3.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>甜椒</h3>
+                    <p>by Eat-Fresh</p>
+                  </div>
+                  <div class="folio-overview">
+                  
+                    <span class="folio-expand"><a href="images/portfolio/product_detail_3.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/4.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>种植设备</h3>
+                    <p>by Eat-Fresh</p>
+                  </div>
+                  <div class="folio-overview">
+                    
+                    <span class="folio-expand"><a href="images/portfolio/product_detail_4.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/5.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>蔬果生长检测</h3>
+                    <p>by Eat-Fresh</p>
+                  </div>
+                  <div class="folio-overview">
+                    
+                    <span class="folio-expand"><a href="images/portfolio/product_detail_5.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/6.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>樱桃番茄</h3>
+                    <p>by Eat-Fresh</p>
+                  </div>
+                  <div class="folio-overview">
+                    
+                    <span class="folio-expand"><a href="images/portfolio/product_detail_6.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/7.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>冰菜</h3>
+                    <p>by Eat-Fresh</p>
+                  </div>
+                  <div class="folio-overview">
+                    
+                    <span class="folio-expand"><a href="images/portfolio/product_detail_7.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/8.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>水果黄瓜</h3>
+                    <p>by Eat-Fresh</p>
+                  </div>
+                  <div class="folio-overview">
+                    
+                    <span class="folio-expand"><a href="images/portfolio/product_detail_8.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio-single-wrap">
+      <div id="portfolio-single">
+      </div>
+    </div><!-- /#portfolio-single-wrap -->
+  </section><!--/#portfolio-->
+ 
+
+
+
+<section id="services">
+    <div>
+      <div class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-8 col-sm-offset-2">
+            <h2><img src="images/aeroponics_title.png" width="289" height="90" alt=""/> </h2>
+            <p>Originally derived from NASA’s "aeroponics" technology, our aeroponic growing system prevents pollution from pathogenic bacteria and heavy metals.</p>
+          </div>
+        </div> 
+      </div>
+	  
+	  
+	  
+	  <div class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-12">
+            <h2><img src="images/wupei.jpg" width="100%" height="auto" alt=""/> </h2>
+          </div>
+        </div> 
+      </div>
+     </div>
+	  
+	<div>
+	  <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2><img src="images/4.png" height="93" alt=""/></h2>
+          <br>
+          <h3>经全球检测领导者机构SGS,PONY检测证明，农药残留基本为0，均符合甚至超过国际标准</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div id="cleanroom" class="col-md-6 col-md-offset-3">
+          <div class="col-sm-4 folio-item wow fadeInUp" data-wow-duration="400ms" data-wow-delay="1000ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/1.png" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>PONY</h3>
+                    <p>PONY谱尼测试是服务网络遍及全国的大型综合性检测机构，检测报告得到美国、英国、德国等70多个国家及地区认可，具有国际公信力。 </p>
+				  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+		  
+          <div class="col-sm-4 folio-item wow fadeInUp" data-wow-duration="600ms" data-wow-delay="1000ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/2.png" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>CNAS</h3>
+                    <p>CNAS：中国合格评定国家认可委员会。"CNAS"标识表明质检中心的检测能力和设备能力通过中国合格评定国家认可委员会认可。 </p>
+				  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+		  
+          <div class="col-sm-4 folio-item wow fadeInUp" data-wow-duration="800ms" data-wow-delay="1000ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/3.png" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>SGS</h3>
+                    <p>SGS是全球领先的检验、鉴定、测试和认证机构，是全球公认的质量和诚信基准。 </p>
+				  </div>
+                </div>
+              </div>
+            </div>
+          </div>                 
+        </div>
+         <!--<div class="load-more wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <a href="#" class="btn-loadmore"><i class="fa fa-repeat"></i> Load More</a>-->
+         </div> 
+    </div>
+  </section><!--/#services-->
+
+
+
+  
+  <section id="twitter" class="parallax">
+    <div>
+      <a class="twitter-left-control" href="#twitter-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="twitter-right-control" href="#twitter-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <div class="text-center" style="width:18%;float:left;display:inline;"> 
+                <img src="images/QRcode.jpg" width="100%" alt=""/>
+            </div>
+            <div id="twitter-carousel" class="carousel slide" data-ride="carousel" style="width:80%;float:left; text-align:left;padding-left:15px;font-family:FZLanTingHeiS-EL-GB, Microsoft YaHei;">
+               <h4 style="font-size:20px;">关注我们</h4>
+               <div class="carousel-inner">
+                    <div class="item active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                       <p>扫描二维码并关注易绿鲜微信公众号，获取更多订购与蔬果信息。易绿鲜太空级纯净蔬果，杜绝任何污染，营养价值远超普通蔬果。</p>
+                    </div>
+                <div class="item">
+                  <p>扫描二维码并关注易绿鲜微信公众号，获取更多订购与蔬果信息。易绿鲜太空级纯净蔬果，杜绝任何污染，营养价值远超普通蔬果。</p>
+                </div>
+                <div class="item">                                
+                  <p>扫描二维码并关注易绿鲜微信公众号，获取更多订购与蔬果信息。易绿鲜太空级纯净蔬果，杜绝任何污染，营养价值远超普通蔬果。</p>
+                </div>
+              </div>                        
+            </div>                    
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#twitter-->
+  
+
+  <section id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2><img src="images/recent_title.png" width="280" height="93" alt=""/></h2>
+          <p></p>
+        </div>
+      </div>
+      <div class="blog-posts">
+        <div class="row">
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms" style="font-family:FZLanTingHeiS-EL-GB, Microsoft YaHei;">
+            <div class="post-thumb">
+              <img class="img-responsive" src="images/blog/1.jpg" alt="">
+            </div>
+            <div class="entry-header">
+              <h3>［活动预告］6月17日爱盛与南京农业大学实践教学基地合作揭幕仪式</h3>
+              <span class="date">June, 2016</span> 
+            </div>
+            <div class="entry-content">
+              <p>2016年6月17日，爱盛与南京农业大学实践教学基地合作将启动盛大的揭幕仪式。公司希望与南农展开相关合作，本着“资源共享、优势互补、互惠互利、合作共赢”的原则，开创校企合作、提升人才培养质量的新增长点。 </p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms" style="font-family:FZLanTingHeiS-EL-GB, Microsoft YaHei;">
+            <div class="post-thumb">
+              <div id="post-carousel"  class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#post-carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#post-carousel" data-slide-to="1"></li>
+                  <li data-target="#post-carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img class="img-responsive" src="images/blog/2.jpg" alt="">
+                  </div>
+                  <div class="item">
+                    <img class="img-responsive" src="images/blog/4.jpg" alt="">
+                  </div>
+                  <div class="item">
+                    <img class="img-responsive" src="images/blog/5.jpg" alt="">
+                  </div>
+                </div>                               
+                <a class="blog-left-control" href="#post-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                <a class="blog-right-control" href="#post-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+              </div>                            
+            </div>
+            
+            <div class="entry-header">
+              <h3>易绿鲜品牌蔬果参加2016年第16届上海营养健康产业博览会展览</h3>
+              <span class="date">April, 2016</span>  
+            </div>
+            <div class="entry-content">
+              <p>在2016年第16届上海营养健康产业博览会上，爱盛公司旗下的“易绿鲜”纯净蔬果获得了大众的广泛关注和好评,并接受了CCTV健康频道采访。</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms" style="font-family:FZLanTingHeiS-EL-GB, Microsoft YaHei;">
+            <div class="post-thumb">
+              <img class="img-responsive" src="images/blog/3.jpg" alt="">
+
+            </div>
+            <div class="entry-header">
+              <h3>临港管委会推动六产高科技智能项目，爱盛生物科技落户临港</h3>
+              <span class="date">Jan, 2016</span>
+            </div>
+            <div class="entry-content">
+              <p>爱盛公司一行在董事长陈一之先生的带领下访问了上海浦东临港管委会，为高科技智能室内农业项目落户临港开展前期准备工作；并受到了管委会综合计划办主任汤文侃及经贸办、六产研究院、临港科技城公司的热情接待。 </p>
+            </div>
+          </div>                    
+        </div>
+         <!--<div class="load-more wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <a href="#" class="btn-loadmore"><i class="fa fa-repeat"></i> Load More</a>-->
+         </div>                
+      </div>
+    </div>
+  </section><!--/#blog-->
+
+  <section id="contact">
+    <div id="contact-us" class="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms" style="font-family:FZLanTingHeiS-EL-GB, Microsoft YaHei;">
+            <h2>Contact Us</h2>
+            <p>如对我们的易绿鲜纯净蔬果有订购意向或任何疑问，请留下您的联系方式，我们将第一时间与您取得联系！</p>
+          </div>
+        </div>
+        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+          <div class="row">
+            <div class="col-sm-6">
+              <form id="main-contact-form" name="contact-form" method="post" action="#">
+                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" name="name" class="form-control" placeholder="Your name 姓名" required="required">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="email" name="email" class="form-control" placeholder="Email 邮件" required="required">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" name="subject" class="form-control" placeholder="Subject 主题" required="required">
+                </div>
+                <div class="form-group">
+                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Your message 您的讯息" required></textarea>
+                </div>                        
+                <div class="form-group">
+                  <button type="submit" class="btn-submit">Send Now</button>
+                </div>
+              </form>   
+            </div>
+            <div class="col-sm-6">
+              <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <p>易绿鲜太空级纯净蔬果，NASA水雾培技术种植，杜绝任何污染，无需水洗，直接可食，是您真正的健康选择。</p>
+                <ul class="address">
+                  <li><em class="fa fa-map-marker"></em> <span>Address:</span> 上海市嘉定区兴贤路1180号8栋 </li>
+                  <li><em class="fa fa-phone"></em> <span>Hotline:</span> 400-090-2298 </li>
+                  <li><em class="fa fa-envelope"></em> <span> Email: </span><a href="mailto:Jhuang@AEssenseGrows.com">Jhuang@AEssenseGrows.com</a></li>
+                  <li><em class="fa fa-globe"></em> <span> Website:</span> <a href="http://www.AEssenseGrows.com">www.AEssenseGrows.com</a></li>
+                </ul>
+              </div>                            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>        
+  </section><!--/#contact-->
+  
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="container text-center">
+        <div class="footer-logo">
+          <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""></a>
+        </div>
+        <div class="social-icons">
+          <ul>
+            <li><a class="envelope" href="mailto:Eat-Fresh@AEssenseCorp.com"><i class="fa fa-envelope"></i></a></li>
+
+            <li><a class="dribbble" href="www.eat-fresh.cn"><i class="fa fa-dribbble"></i></a></li>
+
+            <li><a class="tumblr" href="#"><i class="fa fa-tumblr-square"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p>&copy; 2016 爱盛生物科技（上海）有限公司</p>
+          </div>
+          <div class="col-sm-6">
+            <p class="pull-right">Crafted by <a href="http:www.eat-fresh.cn">Eat-Fresh</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/hoverSlide.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+
+</body>
+</html>
